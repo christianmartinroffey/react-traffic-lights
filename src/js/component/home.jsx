@@ -1,5 +1,5 @@
 import React from "react";
-import SimpleCounter from "./Counter";
+import TrafficLights from "./TrafficLights";
 // import Counter from "./Counter";
 
 //include images into your bundle
@@ -9,7 +9,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div className="home align-items-center">
-			<SimpleCounter />
+			<TrafficLights />
 		</div>
 	);
 };
