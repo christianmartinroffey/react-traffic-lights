@@ -12,23 +12,19 @@ const TrafficLights = (props) => {
 					className={
 						"light rounded-circle bg-danger p-5 m-1 " +
 						(Color === "red" ? "glow" : "")
-					}>
-				</div>
+					}></div>
 				<div
 					onClick={() => setColor("yellow")}
 					className={
 						"light rounded-circle bg-warning p-5 m-1 " +
 						(Color === "yellow" ? "glow" : "")
-					}>
-				</div>
+					}></div>
 				<div
 					onClick={() => setColor("green")}
 					className={
 						"light rounded-circle bg-success p-5 m-1 " +
 						(Color === "green" ? "glow" : "")
-					}>
-				</div>
-				
+					}></div>
 			</div>
 		</div>
 	);
